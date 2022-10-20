@@ -24,17 +24,18 @@
         disableDefaultUI: true
       }
       var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-    }
-          var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+      
+      var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 35.3734, lng: 139.5342},
+        position: {lat: 53.480759, lng: -2.242631},
         icon: iconBase + 'flag_maps.png',
         map: map
-      }); 
-    var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info window</h2><p>This is a cool custom info window.</p></div>';
+      });
 
-     var infowindow = new google.maps.InfoWindow({
+      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info window</h2><p>This is a cool custom info window.</p></div>';
+
+      var infowindow = new google.maps.InfoWindow({
         content: contentString
       });
 
