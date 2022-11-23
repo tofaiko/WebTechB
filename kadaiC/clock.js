@@ -20,8 +20,8 @@ function getTime() {
     } else {
         ss = now.getSeconds();
     }
-    nowtime = hh + ":" + mm + ":" + ss;
-    var msg = document.getElementById('pos');
+    
+    var msg = hh + ":" + mm + ":" + ss;
     document.getElementById('clock-show').innerHTML = msg;
 }
 
