@@ -3,10 +3,25 @@
 body {
     background-color: #f8f4e6;
     font-family: 'Zen Maru Gothic', sans-serif;
-    text-align: center;
     color: #8f6552;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+  width: 300px;
 }
 
 #clock-show {
     border: solid 2px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    text-align: center;
+    width: 300px;
 }
